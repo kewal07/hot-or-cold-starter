@@ -84,9 +84,7 @@ $(document).ready(function(){
 	/*--- Clears all existing guesses and numbers ---*/
 	function clearAll(){
 		randomNumber = Math.floor((Math.random() * 100) + 1);
-		console.log(randomNumber);
 		guessCount = 0;
-		console.log("clearAll");
 		$("#feedback").html("Make your Guess! ");
 		$("#userGuess").val("");
 		$('#count').empty();
